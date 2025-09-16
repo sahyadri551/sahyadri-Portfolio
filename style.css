@@ -1,11 +1,3 @@
-:root {
-    --bg-color: #111827; 
-    --card-color: #1F2937; 
-    --primary-color: #38BDF8; 
-    --text-color: #E5E7EB; 
-    --text-secondary: #9CA3AF; 
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -168,7 +160,7 @@ nav ul li a:hover {
 }
 
 .skill-card {
-    background-color: var(#1F2937);
+    background-color: #1F2937;
     padding: 1.5rem;
     border-radius: 8px;
     text-align: center;
@@ -183,7 +175,7 @@ nav ul li a:hover {
 }
 
 .project-card {
-    background-color: var(#1F2937);
+    background-color: #1F2937;
     border-radius: 8px;
     overflow: hidden;
     max-width: 700px;
@@ -247,15 +239,15 @@ nav ul li a:hover {
 footer {
     text-align: center;
     padding: 2rem;
-    border-top: 1px solid var(#1F2937);
+    border-top: 1px solid #1F2937;
     color: #9CA3AF;
 }
 
+/* hamburger icon */
 .menu-toggle {
     display: none;
 }
 
-/* hamburger icon */
 .hamburger-icon {
     display: none; 
     position: relative;
@@ -298,7 +290,7 @@ footer {
     position: absolute;
     height: 4px;
     width: 100%;
-    background: var(--text-color);
+    background: #E5E7EB;
     border-radius: 2px;
     left: 0;
     transition: all 0.3s ease-in-out;
@@ -318,7 +310,7 @@ footer {
         right: 0;
         width: 100%;
         height: 100vh;
-        background-color: var(--card-color);
+        background-color: #1F2937;
         display: flex;
         flex-direction: column;
         justify-content: center;
