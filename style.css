@@ -142,3 +142,12 @@ nav ul li a:hover {
 .social-links img:hover {
     transform: scale(1.2);
 }
+
+#about .container p {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+#about strong {
+    color: var(#38BDF8);
+}
