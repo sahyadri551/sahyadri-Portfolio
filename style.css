@@ -44,6 +44,12 @@ h2 {
     text-align: center; 
 }
 
+h1,h2{
+    background-image: linear-gradient(to right, #ff8c00, #ff0080);;
+    background-clip: text;
+    color: transparent;
+}
+
 p { 
     font-size: 1.1rem; 
     color: #9CA3AF; 
@@ -80,7 +86,9 @@ nav {
 .nav-logo {
     font-size: 1.5rem;
     font-weight: 700;
-    color: white;
+    background: linear-gradient(to right, #1DB954, #02a93c);
+    background-clip: text;
+    color: transparent;
 }
 
 nav ul {
