@@ -215,3 +215,23 @@ nav ul li a:hover {
 .btn:hover {
     background-color: #0484bb;
 }
+
+#contact .container {
+    text-align: center;
+    max-width: 700px;
+}
+
+#contact p {
+    margin-bottom: 2rem;
+}
+
+.social-links-contact {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.social-links-contact a {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
