@@ -235,3 +235,10 @@ nav ul li a:hover {
     font-size: 1.1rem;
     font-weight: 500;
 }
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    border-top: 1px solid var(#1F2937);
+    color: var(#9CA3AF);
+}
